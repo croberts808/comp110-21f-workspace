@@ -1,12 +1,10 @@
-"""This is me testing out the exercise."""
-# TODO: Write docstring here
+"""A mad-libs style hype machine."""
 
-# TODO: Initialize __author__ variable here
-__author__ = "1234567890"
+__author__: str = "123456789"
 
-
-# TODO: Implement your program logic here
 
 name: str = input("What is your name? ")
-print("You entered: ")
-print(name)
+
+print("Ok " + name + ", you are a boss.")
+print(name + " did you know you are going to crush it?")
+print("Go on with ya bad self " + name + "!!!")
