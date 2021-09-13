@@ -10,9 +10,9 @@ while i < len(word):
     character: str = word[i]
     index: int = i + 1
     while index < len(word):
-        if character == word[index]:
+        if word[index] == character:
             tf = True
         index += 1
     i += 1
 
-print("Found Duplicate: " + str(tf))
+print("Found duplicate: " + str(tf))
